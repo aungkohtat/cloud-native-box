@@ -27,10 +27,17 @@ git clone git@github.com:aungkohtat/cloud-native-box.git
 cd cloud-native-box
 mkdir .ssh
 cd .ssh
-ssh-keygen
+ssh-keygen   # (Need to replace: previous_pwd_result/id_rsa)
+vi Vagrant   # (Need to replace: Path to your private key file location)
 /Users/aungkohtet/Desktop/cloud-native-box/.ssh/id_rsa
 cd ../
+```
+
+### Making Vagrant Box Up and Running
+
+```
 vagrant up
+vagrant status     # Check vagrant box is up or not
 ```
 
 #### Spin up k8s cluster
