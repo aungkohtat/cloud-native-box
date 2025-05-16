@@ -17,8 +17,8 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github.com.aungkohtat
 ssh -T git@github.com
 
-git config user.name "aungkohtat"
-git config user.email "aungkohtat717@gmail.com"
+git config user.name "username"
+git config user.email "user email"
 ```
 
 #### Up and Running vagrant box
